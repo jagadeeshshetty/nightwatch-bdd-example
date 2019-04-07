@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27132000000
+              "duration": 34698000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 16000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 37000000
             }
           },
           {
@@ -64,7 +64,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 45000000
             }
           },
           {
@@ -74,8 +74,7 @@
               "location": "cucumber.conf.js:45"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -98,7 +97,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1636000000
+              "duration": 5119000000
             }
           },
           {
@@ -111,7 +110,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 10000000
             }
           },
           {
@@ -124,7 +123,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 144000000
+              "duration": 139000000
             }
           },
           {
@@ -137,7 +136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4844000000
+              "duration": 2937000000
             }
           },
           {
@@ -163,7 +162,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 48000000
             }
           },
           {
@@ -173,7 +172,8 @@
               "location": "cucumber.conf.js:45"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -196,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1844000000
+              "duration": 2418000000
             }
           },
           {
@@ -209,7 +209,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 8000000
             }
           },
           {
@@ -222,7 +222,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 132000000
             }
           },
           {
@@ -235,7 +235,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2756000000
+              "duration": 3594000000
             }
           },
           {
@@ -248,7 +248,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 11000000
             }
           },
           {
@@ -261,7 +261,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57000000
+              "duration": 54000000
             }
           },
           {
@@ -274,7 +274,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 50000000
             }
           },
           {

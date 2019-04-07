@@ -1,8 +1,20 @@
 
 # BDD based WebUI Test Automation using NightwatchJS framework
 
+![build](https://img.shields.io/badge/build-success-brightgreen.svg)
+[![npm-version](https://img.shields.io/badge/nightwach-v1.0.19-informational.svg)](https://www.npmjs.com/package/nightwatch/v/1.0.19)
+[![npm-nightwatch](https://img.shields.io/badge/weekly%20downloads-155k%2B-brightgreen.svg?style=social&logo=appveyor)](https://www.npmjs.com/package/nightwatch)
+
+[![author-linkedin](https://img.shields.io/badge/author-Jagadeesh%20Shetty-success.svg)](https://www.linkedin.com/in/jagadeesh-c-2a3a9423)
+
+Nightwatch.js is an automated testing framework for web applications and websites, written in Node.js and using the [W3C WebDriver](https://www.w3.org/TR/webdriver/) API (formerly [Selenium WebDriver](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol)).
+
+It is a complete End-to-End testing solution which aims to simplify writing automated tests and setting up Continuous Integration. Nightwatch can also be used for writing Node.js unit and integration tests.
+
+*The name Nightwatch was inspired by the famous painting The Night Watch by Dutch artist Rembrandt van Rijn. The masterpiece is prominently displayed in the Rijksmuseum, in Amsterdam - The Netherlands.*
+
 ## Steps to run
-- Clone the repository.
+- Clone the [repository](https://github.com/jagadeeshshetty/nightwatch-bdd-example.git).
 - Run `$ npm i` command.
 - Run `$ npm run test:chrome` command.
 - Test execution log is as follows
@@ -61,4 +73,7 @@
     0m38.744s
     Cucumber HTML report report/cucumber_report.html generated successfully.
     ```
-- Test report and link.
+- Test report and [link](https://github.com/jagadeeshshetty/nightwatch-bdd-example/blob/master/report/cucumber_report.html).
+
+Screenshot:
+![alt text](images/test-report.png)
