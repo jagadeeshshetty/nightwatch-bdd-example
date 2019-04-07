@@ -1,0 +1,295 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test OpenWeatherMap web app",
+    "line": 2,
+    "id": "test-openweathermap-web-app",
+    "tags": [],
+    "uri": "features\\openWeatherMap.feature",
+    "elements": [
+      {
+        "id": "test-openweathermap-web-app;verify-the-openweathermap-home-page-elements",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify the OpenWeatherMap home page elements",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "i open openweathermap home page",
+            "match": {
+              "location": "step-definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the page should open with \"Сurrent weather and forecast - OpenWeatherMap\" title",
+            "match": {
+              "location": "step-definitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the your city name edit box should be visible",
+            "match": {
+              "location": "step-definitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the search button should be visible",
+            "match": {
+              "location": "step-definitions\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-openweathermap-web-app;verify-the-openweathermap-search-functionality-with-invalid-city-name",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify the OpenWeatherMap search functionality with invalid city name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "i open openweathermap home page",
+            "match": {
+              "location": "step-definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the page should open with \"Сurrent weather and forecast - OpenWeatherMap\" title",
+            "match": {
+              "location": "step-definitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "i enter \"invalid city name\" city name into serach edit box",
+            "match": {
+              "location": "step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "i click on search button",
+            "match": {
+              "location": "step-definitions\\steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the page should open with \"Find - OpenWeatherMap\" title",
+            "match": {
+              "location": "step-definitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the not found alert should appear",
+            "match": {
+              "location": "step-definitions\\steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:45"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-openweathermap-web-app;verify-the-openweathermap-search-functionality-with-valid-city-name",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify the OpenWeatherMap search functionality with valid city name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "i open openweathermap home page",
+            "match": {
+              "location": "step-definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the page should open with \"Сurrent weather and forecast - OpenWeatherMap\" title",
+            "match": {
+              "location": "step-definitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "i enter \"bangalore\" city name into serach edit box",
+            "match": {
+              "location": "step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "i click on search button",
+            "match": {
+              "location": "step-definitions\\steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the page should open with \"Find - OpenWeatherMap\" title",
+            "match": {
+              "location": "step-definitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the \"Bangalore, IN\" link should appear",
+            "match": {
+              "location": "step-definitions\\steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the \"[12.9762, 77.6033]\" geo coords should appear",
+            "match": {
+              "location": "step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
